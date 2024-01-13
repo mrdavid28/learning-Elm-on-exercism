@@ -1,0 +1,1 @@
+Currently, depending on my desire and mood, I perform tasks on exercism that help me learn the purely functional language of Elm. Some of the code is not mine, as I have modeled the solutions of other users.
