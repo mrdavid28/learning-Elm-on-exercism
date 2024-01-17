@@ -25,20 +25,7 @@ revive player =
             Just {player | health = 100}
         else Nothing
         
-{-
 
-castSpell : Int -> Player -> ( Player, Int )
-castSpell manaCost player =
-    case player.mana of
-        Nothing ->
-            ({player | health = max(player.health - manaCost) 0}, 0)
-        Just mana ->
-            if mana >= manaCost then
-                ({player | mana = Just (mana - manaCost)}, manaCost * 2)
-            else
-                (player, 0)
-
--}
 
 castSpell: Int -> Player -> (Player, Int)
 castSpell manaCost player = 
